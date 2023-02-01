@@ -1,0 +1,17 @@
+div.market{
+width: 100%;
+height: 300px;
+text-align: center;
+}
+div.market>div{
+margin: 10px;
+width: 630px;
+height: 250px;    
+display: inline-block;
+}
+div.market>div>img{
+width: inherit;
+height: inherit;
+border-radius: 20px;
+
+}

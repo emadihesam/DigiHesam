@@ -1,0 +1,386 @@
+div.header{
+    width: 100%;
+}
+div.header>div.top{
+    width:inherit ;
+    height: 60px;
+
+}
+div.header>div.top>img{
+    width: inherit;
+    height: inherit;
+    object-fit: cover;
+}
+div.header>div.middle{
+    width: 100%;
+    height: 70px;
+    position: relative;
+    
+}
+div.header>div.middle>div:nth-of-type(1){
+    width:130px ;
+    height: 160px;
+    display: inline-block;
+}
+div.header>div.middle>div:nth-of-type(1)>img{
+width: 130px;
+margin: 10px;
+padding-right: 20px;
+padding-bottom: 5px;
+box-sizing: border-box;
+
+
+}
+div.header>div.middle>div:nth-of-type(2){
+    width: 600px;
+    height: 40px;
+    margin: 10px 40px;
+    background-color: whitesmoke;
+    display: inline-block;
+    border-radius: 10px;
+    position: relative;
+}
+div.header>div.middle>div:nth-of-type(2)>i{
+    position: absolute;
+   top: 10px;
+    right: 10px;
+    line-height: 20px;
+    color: grey;
+}
+div.header>div.middle>div:nth-of-type(2)>p{
+    position: absolute;
+    right: 40px;
+    line-height: 40px;
+    font-family: BYek;
+    font-size: 13px;
+    color: gray;
+}
+div.header>div.middle>div:nth-of-type(3){
+    width: 130px;
+    height: 40px;
+    border: 1px solid rgb(211, 207, 207) ;
+    display: inline-block;
+    border-radius: 5px;
+    position: relative;
+
+position: absolute;
+top: 10px;
+left: 60px;
+}
+div.header>div.middle>div:nth-of-type(3)>nav>a{
+    text-decoration: none;
+    font-family: BYek;
+    display: block;
+    font-size: 12px;
+    line-height: 40px;
+    text-align: center;
+    
+}
+div.header>div.middle>div:nth-of-type(3)>nav>a>span{
+    width: 10px;
+    height: 10px;
+    border-left: 2px solid black;
+    padding: 1px;
+    font-size: 12px;
+    box-sizing: border-box;
+    color: black;    
+}
+div.header>div.middle>div:nth-of-type(3)>nav>a>span:nth-of-type(2){
+border-left: none;       
+
+}
+div.header>div.middle>div:nth-of-type(3)>nav>a>i{
+    color: black;
+font-size: 13px;
+    padding-right: 5px;
+    box-sizing: border-box;
+    
+
+}
+div.header>div.middle>div:nth-of-type(4){
+   width:auto ;
+   height: 65px;
+   display: inline-block;
+   position: absolute;
+   left:20px;
+    top: 22px;
+}
+div.header>div.menu{
+    width: 100%;
+    height: 40px;
+ position: relative;
+    box-shadow: 5px 5px 5px lightgray;
+}
+div.header>div.menu>nav{
+    width: inherit;
+    height: inherit;
+    position: absolute;
+}
+div.header>div.menu>nav>ul{
+    width:inherit;
+    height: inherit;
+    list-style: none;
+    padding-right: 18px;
+    
+}
+div.header>div.menu>nav>ul>li{
+    width: auto;
+    height: inherit;
+    display: inline-block;
+    vertical-align: top;
+    transition: 300ms;
+    position: relative;
+}
+div.header>div.menu>nav>ul>li>a{
+    height: inherit;
+    text-decoration: none;
+    color: rgb(93, 91, 91);
+    font-family: BYek;
+    padding: 0 10px;
+    line-height: 40px;
+    font-size: 13px;
+    box-sizing: border-box;
+
+
+}
+div.header>div.menu>nav>ul>li>a.bold{
+    font-size: 14px;
+    font-weight: bold;
+    border-left: 1px solid rgb(199, 194, 194);
+    
+}
+div.header>div.menu>nav>ul>li>a>i{
+    padding: 5px;
+    font-weight: bold;
+}
+div.header>div.menu>nav>ul>label{
+   
+    text-decoration: none;
+    color: rgb(93, 91, 91);
+    font-family: BYek;
+left: 10px;
+top: 8px;
+    font-size: 13px;
+    position: absolute;
+}
+
+div.header>div.menu>nav>ul>label>i{
+    padding: 5px 10px;
+    font-weight: bold;
+}   
+div.header>div.menu>nav>ul>li>div{
+    width: 0px;
+    height: 2px;
+    position: absolute;
+    background-color: red;
+top:100%;
+left: 0px;
+transition: 200ms;
+    
+}
+div.header>div.menu>nav>ul>li:hover>div{
+width: 140px;
+transition: 300ms;
+z-index:4 ;
+
+}
+div.header>div.menu>nav>ul>li.second:hover>div{
+    width: 100px;
+transition: 300ms;
+
+}
+div.header>div.menu>nav>ul>li>div.down{
+    width:calc(100vw - 40px);
+    height: 400px;
+  background-color:white; 
+    position: absolute; 
+   display: none;
+   right: 0px;
+   box-shadow: 5px 5px 5px lightgray;
+   
+}
+div.header>div.menu>nav>ul>li:hover>div.down{
+    display: block;
+    z-index: 3;
+}
+div.header>div.menu>nav>ul>li>div.down>div{
+    width: 13%;
+    height: inherit;
+    overflow: auto;
+    box-shadow: 0 1px 3px black;
+    
+}
+div.header>div.menu>nav>ul>li>div.down>div>div{
+    width: 100%;
+    height: 50px;
+  text-align: center;
+  line-height: 50px;
+  
+}
+div.header>div.menu>nav>ul>li>div.down>div>div>a{
+text-decoration: none;
+width: 100%;
+height:50px ;
+font-family: BYek;
+font-size: 12px;
+display: block;
+color: #2b2b2b;
+}
+div.header>div.menu>nav>ul>li>div.down>div>div>a:hover{
+    color: deeppink;
+    background-color:whitesmoke;
+}
+div.header>div.menu>nav>ul>li>div.down>div>div>a>i{
+    padding-left: 5px;
+    font-size: 13px;
+}
+div.header>div.menu>nav>ul>li>div.down>div>div>div.submit{
+    width: 87%;
+    height: 100%;
+    overflow: auto;
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: none;
+}
+div.header>div.menu>nav>ul>li>div.down>div>div:hover>div{
+    display: block;
+}
+div.header>div.menu>nav>ul>li>div.down>div>div>div.submit>div{
+    width: 19%;
+    height: 100%;
+  vertical-align: top;
+    display: inline-block;
+ 
+}
+div.header>div.menu>nav>ul>li>div.down>div>div>div.submit>div>ul{
+ width: 100%;
+ height: 40px;
+ background-color:
+}
+div.header>div.menu>nav>ul>li>div.down>div>div>div.submit>div>ul>li{
+ width: inherit;
+    height: 30px; 
+    list-style: none;
+    text-align: right;
+
+}
+div.header>div.menu>nav>ul>li>div.down>div>div>div.submit>div>ul>li>a{
+   width: 100%;
+    height: 40px;
+    text-decoration: none;
+    color: rgb(93, 91, 91);
+    font-family: BYek;
+    font-size: 13px;
+}
+div.header>div.menu>nav>ul>li>div.down>div>div>div.submit>div>ul>li.first{
+    width: 100%;
+    height: 60px;
+    
+}
+div.header>div.menu>nav>ul>li>div.down>div>div>div.submit>div>ul>li>a.first{
+     font-size: 13px;
+     line-height: bold;
+     color: black !important;
+     
+ }
+ div.header>div.menu>nav>ul>li>div.down>div>div>div.submit>div>ul>li>a.first>i{
+    padding-right: 5px;
+    padding-top: 10px;
+    font-size: 10px;
+ }
+ div.header>div.menu>nav>ul>li>div.down>div>div>div.submit>div>ul>li>a.second{
+    font-size: 14px;
+    line-height: bold;
+    color: black;
+    border-right: 3px solid red;
+    box-sizing: border-box;
+    padding-right: 10px;
+ }
+ div.header>div.menu>nav>ul>li>div.down>div>div>div.submit>div>ul>li>a.second>i{
+    padding-right: 20px;
+    padding-top: 10px;
+    font-size: 10px;
+ }
+ div.header>div.menu>nav>ul>li>div.down>div>div>div.submit>div>ul>li>a.second:hover{
+    color: deeppink;
+ }
+ div.header>div.menu>nav>ul>li>div.down>div>div>div.submit>div>ul>li>a:hover{
+    color: deeppink;
+ }
+
+ label[for=show]{
+    width: auto;
+    height: inherit;
+    cursor: pointer;
+    display: inline-block;
+ }
+ #show{
+    display: none;
+ }
+ #close{
+    display: none;
+ }
+ div.show{
+    width: 400px;
+    height:450px;
+    background-color: #2b2b2b;
+    margin: auto;
+    display: none;
+    position: relative;
+    box-sizing: border-box;
+    z-index: 5;
+    
+ }
+ #show:checked ~ div.show{
+    display: block;
+
+ }
+ #close:checked ~ div.show{
+display: none;
+ }
+label[for=close]{
+    display: inline-block;
+    font-size: 35px;
+    cursor: pointer;
+    position: absolute;
+   left: 30px;
+   top: 15px;
+  line-height: bold;
+   color: black;
+   
+}
+div.show>ul{
+    width:100%;
+    height:inherit ;
+overflow: auto;
+background-color: whitesmoke;
+}
+div.show>ul>li{
+    width: 100%;
+    height: 60px;
+    list-style: none;
+    border-bottom: 1px solid #e0d9d9;
+
+}
+div.show>ul>li>a{
+    width: inherit;
+    height: inherit;
+    text-decoration: none;
+    font-size: 13px;
+    line-height: 60px;
+    font-family: BYek;
+    color: black;
+    padding: 15px;
+    
+
+}
+div.show>ul>li.first{
+    height: 70px;
+    line-height: 70px;
+    border-bottom:1px solid #7d7979;
+}
+div.show>ul>li>a.first{
+    line-height: bold;
+    font-size: 15px;   
+}
